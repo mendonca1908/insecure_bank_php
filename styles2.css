@@ -1,0 +1,134 @@
+body {
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+background: rgb(2,0,36);
+background-image: linear-gradient(153deg, rgba(2,0,36,1) 0%, rgba(9,90,121,1) 49%, rgba(16,124,145,1) 100%);
+background-attachment: fixed;
+}
+
+
+h1 {
+font-family:Lucida, Helvetica, sans-serif;
+font-size:32px;
+color: white;
+margin-top: 20px;	
+}
+
+img#logout {
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin-right: 10px;
+    float:right;
+    margin-top: 10px;    
+}
+
+div#menu_div {
+    position: fixed;
+    width: 220px;
+    top: 0px;
+    left: 0px;
+    height: 1500px;
+    background-color: rgb(26, 39, 4);
+}
+
+.message_text {
+    color: white;
+    margin-left: 40px;    
+}
+
+.menuitem {
+    font-family:Lucida, Helvetica, sans-serif;
+    font-size:16px;
+    color: white;
+    margin-left: 5px;
+}
+
+.menuitem:hover {
+    color: rgb(22, 1, 1);
+    /*text-decoration: underline;*/
+    background: #e2e2b9;    
+}
+
+div#conteudo {
+    position: fixed;
+    /*width: 500px;*/
+    top: 0px;
+    left: 250px;
+    height: 1500px;
+
+}
+
+textarea#mensagem {
+    width: 90%;
+    height: 150px;
+    padding: 12px 10px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  img#upload-img {
+    width: 100px;
+    height: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+texto#username {
+    color: white;
+    font-size:26px;
+    margin-left: 10px;
+    display: inline-block;    
+    padding-top: 25px;    
+}
+
+useritem {
+    color: rgb(212, 226, 187);
+    font-size:22px;
+}
+
+div.center_content {
+    text-align: center;
+}
+
+div.message {
+    background-color: lightcyan;
+    border-radius: 3px;
+    border-style:single;
+    box-shadow: 2px 2px 2px black;
+    padding: 10px;
+    position:relative; 
+    margin:auto; 
+}
+
+label_input{
+    font-family:Lucida, Helvetica, sans-serif;
+    font-size:14px;
+    color: white;
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 100px;
+    text-align: right;
+}
+
+input.new_user {
+  display: inline-block;
+  float: left;
+  margin-left:10px;
+}
+
+.operation_item {
+    font-family:Lucida, Helvetica, sans-serif;
+    font-size:14px;
+    color: rgb(61, 231, 180);
+    margin-left: 10px;
+}
